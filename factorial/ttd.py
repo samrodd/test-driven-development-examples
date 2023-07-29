@@ -1,6 +1,7 @@
 # Step 1: write test case to define the expected behavior of the factiorial function using unittest framework from Python
 import unittest
 
+# Step 3 write code 
 # Define the factorial function
 def factorial(n):
     # base case of n = 0 or n = 1 return 1
@@ -10,6 +11,7 @@ def factorial(n):
     else:
         return n * factorial(n - 1)
 
+# Step 2: define the test class and cases 
 # Define the test class
 class TestFactorial(unittest.TestCase):
     # Define test method within test class
